@@ -1,0 +1,41 @@
+.blackjack_container_1
+{
+    border: 1px solid black;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+.blackjack-flex-box-row-1, .blackjack-flex-box-row-2 
+{
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 10px;
+    background-color: green;
+    color: aliceblue;
+}
+.blackjack-flex-box-row-1 div
+{
+    border: 1px solid black;
+    height: 400px;
+    width: 250px;
+    justify-content: space-around;
+    flex: auto;
+}
+.blackjack-flex-box-row-2 button
+{
+    border: 1px solid black;
+    margin: 2px;
+}
+.blackjack-flex-box-row-3
+{
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    padding: 10px;
+}
+.blackjack-flex-box-row-3 table td
+{
+    border: 1px solid black;
+    padding: 10px;
+}
