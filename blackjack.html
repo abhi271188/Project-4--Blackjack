@@ -17,19 +17,19 @@
         <!--A master flex box container that allows both players to play the game-->
         <div class = "blackjack-flex-box-row-1">
             <!--A child flex box container that deals with 1st player-->
-            <div class = "blackjack-flex-box-your-div">
-                <h4>You : 0</h4>
+            <div id = "blackjack-your-div" class = "blackjack-flex-box-your-div">
+                <h4>You : <span id = "blackjack-your-score">0</span></h4>
             </div>
             <!--A child flex box container that deals with 2nd player-->
             <div class = "blackjack-flex-box-delear-div">
-                <h4>Dealer : 0</h4>
+                <h4>Dealer : <span id = "blackjack-dealer-score">0</span></h4>
             </div>
         </div>
         <!--A flex box container contains all important buttons of the game-->
         <div class = "blackjack-flex-box-row-2">
-            <button class = "btn btn-primary btn-lg">Hit</button>
-            <button class = "btn btn-warning btn-lg">Stand</button>
-            <button class = "btn btn-Danger btn-lg">Deal</button>
+            <button id = "blackjack_hit_button" class = "btn btn-primary btn-lg">Hit</button>
+            <button id = "blackjack_stand_button" class = "btn btn-warning btn-lg">Stand</button>
+            <button id = "blackjack_deal_button" class = "btn btn-Danger btn-lg">Deal</button>
         </div>
         <!--A flex box container that stores the scores of the game-->
         <div class = "blackjack-flex-box-row-3">
@@ -47,5 +47,6 @@
             </table>
         </div>
     </div>
+    <script src = "blackjack.js"></script>
 </body>
 </html>
