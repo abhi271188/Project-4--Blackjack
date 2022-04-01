@@ -1,48 +1,62 @@
-.blackjack_container_1
+.container-5
 {
-    border: 1px solid black;
     width: 75%;
+    margin: auto;
     text-align: center;
+    border: 1px solid black;
+}
+.flex-blackjack-row-1
+{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: url('https://media.istockphoto.com/vectors/vector-realistic-isolated-green-poker-table-for-decoration-vector-id1299608766?k=20&m=1299608766&s=612x612&w=0&h=ZwlBIc1B5noT2uVZG9yighu1FLc5NoeWrk3KloKsdKM=') center;
+    color: azure;
+}
+.flex-blackjack-row-1 img
+{
+    width: 15%;
+    padding: 10px;
     margin: auto;
 }
-.blackjack-flex-box-row-1, .blackjack-flex-box-row-2 
+.flex-blackjack-row-2 
 {
     display: flex;
-    border: 1px solid black;
-    justify-content: center;
     padding: 10px;
-    background-color: green;
-    color: aliceblue;
+    border: 1px solid black;
+    justify-content: space-around;
+    background: url('https://media.istockphoto.com/vectors/vector-realistic-isolated-green-poker-table-for-decoration-vector-id1299608766?k=20&m=1299608766&s=612x612&w=0&h=ZwlBIc1B5noT2uVZG9yighu1FLc5NoeWrk3KloKsdKM=') center;
 }
-.blackjack-flex-box-row-1 div
+.flex-blackjack-row-1 div
 {
     border: 1px solid black;
-    height: 400px;
-    width: 250px;
-    justify-content: space-around;
-    flex: auto;
+    height: 350px;
+    text-align: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex: 1;
 }
-.blackjack-flex-box-row-1 img
+.flex-blackjack-row-2 div
 {
-    width: 100px;
-    height: 100px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-blackjack-row-2 button
+{
+    border: 1px solid black;
+}
+.flex-blackjack-row-3
+{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 10px;
+}
+.flex-blackjack-row-3 table td
+{
+    border: 1px solid black;
     padding: 5px;
 }
-.blackjack-flex-box-row-2 button
-{
-    border: 1px solid black;
-    margin: 2px;
-}
-.blackjack-flex-box-row-3
-{
-    display: flex;
-    border: 1px solid black;
-    justify-content: center;
-    padding: 10px;
-}
-.blackjack-flex-box-row-3 table td
-{
-    border: 1px solid black;
-    padding: 10px;
-}
-
