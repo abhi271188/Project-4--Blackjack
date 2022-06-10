@@ -4,6 +4,10 @@ Black Jack
 #### Project Description
 Blackjack is a card game that pits player versus dealer. It is played with one or more decks of cards. Cards are counted as their respective numbers, face cards as ten, and ace as either eleven or one (in our game it will show on the counter as an 11 unless you are over 21). The object of Blackjack is the beat the dealer. This can be accomplished by getting Blackjack (first two cards equal 21) without dealer Blackjack, having your final card count be higher than the dealers without exceeding 21, or by not exceeding 21 and dealer busting by exceeding their card count of 21.
 
+#### Players
+Player_1: Human Being
+Player_2: Machine
+
 #### How to play the Blackjack
 In Blackjack, or 21, the player must decide what to bet before the hand. Click the chips to add them to your bet. Click the chip again to remove it back to your pile of money. Once you click "deal" your bet is set, and two cards are dealt to the player face up and two cards are dealt to the dealer, one face up and one face down. You must then decide if you will "hit" (take another card from the deck), "stay" (keep the hand you are dealt), or "double" (you double your bet and are given only one more card).
 
@@ -24,7 +28,7 @@ You will get busted if the sum become more than 21.
 ![image](https://user-images.githubusercontent.com/99959459/173147149-77f7517d-0a06-4fd0-a3e9-61a42ec97eab.png)
 
 ##### Stand Button
-Stand button is for player 2 and it is automatically keep clicking till the sum become less than or equal to 21. If player 2 get busted then player 1 won.
+Stand button is for player2 and it is automatically keep clicking till the sum become less than or equal to 21. If player2 get busted then player1 won.
 ![image](https://user-images.githubusercontent.com/99959459/173147574-03423819-ed91-49e0-b814-d65cb168d174.png)
 
 when the sum of player 2 is greater than the sum of player 1 then player 2 won.
