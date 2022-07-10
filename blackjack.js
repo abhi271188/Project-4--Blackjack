@@ -147,7 +147,7 @@ function sleep(ms)
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-//------------------------------------defining an async function 
+//------------------------------------defining an async function for player 2 (computer itself) -----------------------------------------------------
 async function dealerLogic()
 {
     blackjackGame['isStand'] = true;
@@ -163,6 +163,9 @@ async function dealerLogic()
     let winner = computeWinner()
     showResult(winner);
 }
+//---------------------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------defining a function to compute the winner ---------------------------------------------------------------------
+
 function computeWinner()
 {
     let winner = 0;
@@ -194,6 +197,10 @@ function computeWinner()
     }
     return winner;
 }
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------defining a function to show the winner ------------------------------------------------------------------------
+
 function showResult(winner)
 {
     if(blackjackGame['turnOver'] == true)
@@ -223,3 +230,4 @@ function showResult(winner)
         document.querySelector('#blackjack-result').style.color = messageColor;
     }
 }
+//---------------------------------------------------------------------------------------------------------------------------------------------------
